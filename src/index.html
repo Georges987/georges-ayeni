@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Georges Ayeni</title>
+</head>
+
+<body>
+    <header class="flex fixed top-0 w-full bg-zinc-800 justify-between h-16">
+        <div class="logo text-gray-500 my-auto ml-2">
+            Georges <span>AYENI</span>
+        </div>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="Projects.html">Projects</a>
+            <a href="contact.html">Contact-me !</a>
+        </nav>
+    </header>
+    <div class="flex flex-col justify-center text-center h-screen">
+        <h1 class="text-5xl font-bold">
+            Georges Ayeni
+        </h1>
+        <h2 class="text-3xl font-thin">
+            Développeur web
+        </h2>
+    </div>
+    <main>
+        <section class="container">
+            <div class="w-[80%] mx-auto">
+                <div class="bg-slate-700">
+                    About Me
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="text-center">
+            &copy; <span id="date"></span> Georges Ayeni
+        </p>
+    </footer>
+</body>
+<script>
+    var date = document.getElementById('date');
+    date.innerHTML = new Date().getFullYear()
+</script>
+
+</html>
